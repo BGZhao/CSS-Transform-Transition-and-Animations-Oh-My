@@ -1,3 +1,4 @@
+
 .hamburger:hover > div:nth-child(1){
   background-color: ghostwhite;
   animation-name: top;
@@ -29,15 +30,15 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to { transform: translateX(38px) rotate(49deg) translateY(50px); }
 }
 
 @keyframes middle {
   from {}
-  to {}
+  to { visibility: hidden; }
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to { transform: translateX(38px) rotate(-49deg) translateY(-50px); }
 }

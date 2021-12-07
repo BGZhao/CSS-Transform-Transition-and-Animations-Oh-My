@@ -2,13 +2,19 @@
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
+  color:blueviolet;
 }
 main {
-  background-color: mediumaquamarine;
+  background-color: rgb(102, 184, 205);
   height: 90vh;
   width: 100vh;
   margin: auto;
-  transform: skewX(-10deg) rotate(-10deg);
+    border: groove rgb(255, 0, 200);
+    transform: translate(15px, 10px) rotate(25deg);
+    width: 250px;
+    height: 250px;
+  }
+  
   display: flex;
   align-items: center;
 }
